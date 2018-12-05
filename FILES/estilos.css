@@ -1,0 +1,115 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+    color: aliceblue;
+  }
+  
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: red;
+  }
+  
+
+.encabezado{
+    width:100%;  
+
+    font-size: 120%;
+}
+
+#fPerfil{
+    margin-left:50px;
+    align-content:center;
+    opacity: .6;
+}
+
+.encabezadoDer{
+    width:70%;
+    float: right;    
+    background-color: black;
+    color: aliceblue;  
+    border-color: black;
+    height: 233px;
+}
+.encabezadoDer h1{
+    text-align: center;
+    margin: auto;   
+  
+}
+.encabezadoIzq{
+    width:30%;
+    float: left;
+    background-color: black;
+    background: linear-gradient(to center,black,gray);
+}
+
+.icon {   
+    width:60px;
+}
+
+.datos {
+    list-style-type: none;
+    height: 150px;  
+}
+.datos li{
+    display: inline-block;
+    margin-right: 10%;
+    align-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    margin:auto;   
+}
+ul img{
+  max-width: 50px;
+  max-height: 50px;  
+/*margin: 0 0 0 15;
+  text-align: right;*/ 
+  margin-top: 35px;
+  align-content: center;
+}
+.txtEmpresa{
+    max-width: 60%;
+    text-align: justify;
+    margin: auto;
+    font-weight: bold;
+    clear: both;
+}
+#bar {
+    background-color: rgb(17, 116, 230);
+    height: 30px;
+    clear: both;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+.separador{
+    text-align: left;
+    margin-left: 3%;
+    color: darkgrey;
+    font-size: 22;
+    position: sticky;
+    top: 30px;    
+}
+.logoChico{
+    max-height: 50px;
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.nombreEmpresa{
+    float: right;   
+    width: 50%;
+    margin: auto;
+    
+}
